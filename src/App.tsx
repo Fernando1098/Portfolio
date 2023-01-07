@@ -5,7 +5,7 @@ import { Home } from "./pages";
 
 function App() {
   return (
-    <Grid container spacing={10}>
+    <Grid container spacing={8}>
       <Grid item xs={12} md={12} lg={12} xl={12}>
         <Navbar />
       </Grid>

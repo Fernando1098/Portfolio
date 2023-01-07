@@ -13,10 +13,10 @@ const Welcome: React.FC<WelcomeInterface> = () => {
           <div
             className="content-image"
             style={{
-              width: !isMatchMediaQuery ? 350 : 300,
+              width: !isMatchMediaQuery ? 320 : 300,
               height: 160,
               padding: 10,
-              margin: !isMatchMediaQuery ? 0 : "0 auto"
+              margin: !isMatchMediaQuery ? "40px 0" : "0 auto"
             }}
           >
             <img src={homeDev} alt="welcome-image" style={{ width: "100%" }} />
@@ -25,7 +25,7 @@ const Welcome: React.FC<WelcomeInterface> = () => {
 
         <Grid item xs={12} sm={5} md={8} lg={6} xl={6}>
           <div
-            style={{ display: "flex", flexDirection: "column", marginTop: 50 }}
+            style={{ display: "flex", flexDirection: "column", marginTop: !isMatchMediaQuery ? 80 : 60 }}
           >
             <span
               style={{
