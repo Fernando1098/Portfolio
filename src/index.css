@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
+
+.blob-profile{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  border-radius: 47% 53% 51% 49% / 30% 30% 70% 70% ;
+  transition:  border-radius 500ms ease-in-out;
+  background-color: #2C74B3;
+}
+
+.blob-profile:hover{
+  border-radius: 60% 40% 40% 60% / 30% 16% 84% 70% ;
+}
