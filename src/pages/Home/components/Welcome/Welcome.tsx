@@ -1,5 +1,4 @@
 import { Container, Grid, useMediaQuery, useTheme } from "@mui/material";
-import homeDev from "../../../../assets/homeDev.jpg";
 import dev from "../../../../assets/dev.svg";
 import React from "react";
 export interface WelcomeInterface {}
@@ -18,7 +17,7 @@ const Welcome: React.FC<WelcomeInterface> = () => {
             className={"blob-profile"}
             style={{
               width: isMatchMediaQuery ? "300" : "350px",
-              height: isMatchMediaQuery ? "250" : "300px",
+              height: isMatchMediaQuery ? "250" : "320px",
               margin: "15px auto"
             }}
           >

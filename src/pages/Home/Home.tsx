@@ -1,5 +1,5 @@
 import React from "react";
-import {Presentation, Skills, Welcome} from "@/pages";
+import {Contact, Presentation, Skills, Welcome} from "@/pages";
 export interface HomeInterface {}
 
 const Home: React.FC<HomeInterface> = () => {
@@ -8,6 +8,7 @@ const Home: React.FC<HomeInterface> = () => {
       <Welcome />
       <Presentation />
       <Skills />
+      <Contact />
     </div>
   );
 };

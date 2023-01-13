@@ -29,7 +29,7 @@ export const linksNavbars = [
   },
   {
     id: 5,
-    title: "Contactos",
+    title: "Contacto",
     icon: <Call sx={{ color: "#144272" }} />,
   },
 ];

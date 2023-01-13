@@ -6,3 +6,4 @@ export * from "./components/Skills/components/InfoSkillItem";
 export * from "./components/Skills/components/MobileSkills";
 export * from "./components/Skills";
 export * from "./components/Welcome";
+export * from "./components/Contact"
